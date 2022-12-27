@@ -1,11 +1,7 @@
 version: '3'
 services:
-  # my-app:
-  # image: ${docker-registry}/my-app:1.0
-  # ports:
-  # - 3000:3000
   my-app:
-    image: devopstest001.azurecr.io/my-app:1.4
+    image: vtxtech.azurecr.io/my-app:1.4
     ports:
       - 3000:3000
     environment:
